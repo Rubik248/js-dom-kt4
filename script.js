@@ -12,7 +12,7 @@ function a(ev){
     test.innerText = ev.x
     if (ev.x > 96 && ev.x < 300){
         circle.style.left = `${ev.x - 105}px`
-        res.innerText = (((ev.x - 96) / 204) * 100).toFixed(0)
+        res.innerText = (((ev.x - 96) / 204) * 200).toFixed(0)
     }
 }
 
